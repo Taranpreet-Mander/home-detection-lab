@@ -1,0 +1,21 @@
+# Never commit secrets or credentials
+*.env
+.env
+secrets.*
+*.key
+*.pem
+
+# Wazuh / log exports (can be large or sensitive)
+*.log
+exports/
+*.csv
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
